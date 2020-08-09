@@ -1,2 +1,2 @@
-# articles
+# Articles
 Articles from Rocket Educate.
