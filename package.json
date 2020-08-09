@@ -1,0 +1,13 @@
+{
+  "name": "articles",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rocketeducate/articles.git",
+  },
+  "scripts": {
+    "dev-to-git": "dev-to-git",
+  },
+  "dependencies": {
+    "dev-to-git": "1.4.1",
+  }
+}
