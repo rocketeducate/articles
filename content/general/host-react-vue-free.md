@@ -8,8 +8,6 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/bpsmg1uccir9azio11sd.png
 series:
 ---
 
-## Host React/Vue with Continuous Deployment, for Free!
-
 ### Introduction
 
 Have you ever built web applications that you’d love to show off online, but didn’t want to pay money to host them? 
