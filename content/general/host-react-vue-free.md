@@ -54,39 +54,57 @@ It can be set up in minutes, and has a few nice features out-of-the-box:
 
 All instructions are in the repository’s README, but let’s get started below!
 
-Usage
+### Usage
+
 Get started in minutes with these instructions:
+
 1. Create a repository from this template (include all branches).
 2. Rename your repository to <username>.github.io.
 3. Make sure that GitHub Pages uses the build branch.
-The branch can be selected at Settings -> Options -> GitHub Pages -> Source.
+
+The branch can be selected at `Settings -> Options -> GitHub Pages -> Source`.
+
 This may take a minute or two to update.
 
-Architecture
-This is real simple:
-* The master branch contains a React/Vue project.
-* The build branch will contain the compiled React/Vue application.
-* When you push to master, a GitHub Action compiles the updated project into build.
+### Architecture
 
-Development
+This is real simple:
+
+- The master branch contains a React/Vue project.
+- The build branch will contain the compiled React/Vue application.
+- When you push to master, a GitHub Action compiles the updated project into build.
+
+### Development
+
 Any commits pushed or merged into master will trigger the build action.
+
 These changes will be reflected on your GitHub Pages site after around 60 seconds.
 
-Domain Names
-Apex Domain
-First, set your domain name within the GitHub repository.
-* In the CNAME file, replace example.com with your domain.
-Second, configure your DNS host records with your domain provider.
-* Create an A record for host "@" pointing to 185.199.108.153.
-* Create an A record for host "@" pointing to 185.199.109.153.
-* Create an A record for host "@" pointing to 185.199.110.153.
-* Create an A record for host "@" pointing to 185.199.111.153.
-Subdomains
-You can configure a subdomain, such as www.[example.com], in your DNS host records.
-* Create a CNAME record for host "www" pointing to <username>.github.io.
+### Domain Names
 
-Infinite Hosting
-Want to know what makes this awesome? You can have a repository for each and every subdomain.
+**Apex Domain**
+
+First, set your domain name within the GitHub repository.
+
+- In the CNAME file, replace example.com with your domain.
+
+Second, configure your DNS host records with your domain provider.
+
+- Create an A record for host "@" pointing to 185.199.108.153.
+- Create an A record for host "@" pointing to 185.199.109.153.
+- Create an A record for host "@" pointing to 185.199.110.153.
+- Create an A record for host "@" pointing to 185.199.111.153.
+
+**Subdomains**
+
+You can configure a subdomain, such as www.[example.com], in your DNS host records.
+
+- Create a CNAME record for host "www" pointing to <username>.github.io.
+
+### Infinite Hosting
+
+You can have a repository for each and every subdomain.
+
 1. Create a repository from this template with any name (include all branches).
 2. Enable GitHub Pages for it (Settings -> Options -> GitHub Pages -> Source).
 3. In the CNAME file, replace example.com with your apex and subdomain (i.e. blog.[example.com]).
