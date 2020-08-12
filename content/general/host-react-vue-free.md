@@ -16,9 +16,11 @@ Have you ever built web applications that you’d love to show off online, but d
 
 Do you have a blog, splash page or series of portfolio showcase projects, but don’t want to spend hours configuring and deploying it? 
 
+Well, now you can put up projects like this one below, for free!
+
 ![Example React/Vue Project for Portfolio](https://dev-to-uploads.s3.amazonaws.com/i/au93h70az8wqr2c3t1u7.png)
 
-**Here’s the solution!**
+**Here’s the solution.**
 
 I’ve created a collection of template repositories on GitHub that makes hosting and continuously deploying React and Vue projects *free* and *incredibly simple*. 
 
@@ -42,7 +44,9 @@ We’ll be taking advantage of GitHub Pages in order to host our sites.
 
 Pages is a feature of GitHub that can serve static web files for a repository, typically for docs or a wiki. *We’ll* be using it to serve a compiled React/Vue project. 
 
-I should note here that this won’t host a dynamic web app that would otherwise rely on a Node server. You’ll need a proper web server for that.
+Read more: https://docs.github.com/en/github/working-with-github-pages
+
+I should note here that this won’t host an app that relies on Node. You’ll need a proper web server for that.
 
 ### Getting started
 
@@ -67,12 +71,10 @@ All instructions are in the repository’s README, but let’s get started below
 Get started in minutes with these instructions:
 
 1. Create a repository from this template (include all branches).
-2. Rename your repository to <username>.github.io.
+2. Rename your repository to `<username>.github.io`.
 3. Make sure that GitHub Pages uses the build branch.
 
 The branch can be selected at `Settings -> Options -> GitHub Pages -> Source`.
-
-This may take a minute or two to update.
 
 ### Architecture
 
@@ -81,6 +83,8 @@ This is real simple:
 - The master branch contains a React/Vue project.
 - The build branch will contain the compiled React/Vue application.
 - When you push to master, a GitHub Action compiles the updated project into build.
+
+![Example Build and Deploy after Push to Master](https://dev-to-uploads.s3.amazonaws.com/i/mnhape6c4cjizg5o3rm0.png)
 
 ### Development
 
@@ -108,18 +112,18 @@ Second, configure your DNS host records with your domain provider.
 
 **Subdomains**
 
-You can configure a subdomain, such as www.[example.com], in your DNS host records.
+You can configure a subdomain, such as `www.[example.com]`, in your DNS host records.
 
-- Create a CNAME record for host "www" pointing to <username>.github.io.
+- Create a CNAME record for host "www" pointing to `<username>.github.io`.
 
 ### Infinite Hosting
 
 The awesome power of this is that you can have a repository for each and every subdomain.
 
 1. Create a repository from this template with any name (include all branches).
-2. Enable GitHub Pages for it (Settings -> Options -> GitHub Pages -> Source).
-3. In the CNAME file, replace example.com with your apex and subdomain (i.e. blog.[example.com]).
-4. With your domain provider, create a CNAME record for host "[blog]" pointing to <username>.github.io.
+2. Enable GitHub Pages for it (`Settings -> Options -> GitHub Pages -> Source`).
+3. In the CNAME file, replace `example.com` with your apex and subdomain (i.e. `blog.[example.com]`).
+4. With your domain provider, create a CNAME record for host "[blog]" pointing to `<username>.github.io`.
 
 This is how I achieved each of these, for free:
 
