@@ -111,9 +111,30 @@ You can configure a subdomain, such as www.[example.com], in your DNS host recor
 
 ### Infinite Hosting
 
-You can have a repository for each and every subdomain.
+The awesome power of this is that you can have a repository for each and every subdomain.
 
 1. Create a repository from this template with any name (include all branches).
 2. Enable GitHub Pages for it (Settings -> Options -> GitHub Pages -> Source).
 3. In the CNAME file, replace example.com with your apex and subdomain (i.e. blog.[example.com]).
 4. With your domain provider, create a CNAME record for host "[blog]" pointing to <username>.github.io.
+
+This is how I achieved each of these, for free:
+
+- Vue: https://vue.lloyd.cx/
+- Nuxt: https://nuxt.lloyd.cx/
+- React: https://react.lloyd.cx/
+
+What's not to love? 😉
+
+---
+
+Hey, guys! Thank you for reading. I hope that you enjoyed this.
+
+Keep up to date with me:
+
+- DEV: https://dev.to/tao/
+- Twitter: https://twitter.com/LloydTao
+- GitHub: https://github.com/LloydTao
+- LinkedIn: https://www.linkedin.com/in/LloydTao/
+
+Catch you around!
