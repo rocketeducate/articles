@@ -1,5 +1,5 @@
 ---
-title: "Host your React/Vue Projects with Continuous Deployment, for Free!"
+title: "Host React/Vue with Continuous Deployment, for Free!"
 published: false
 description: "Build and host your React and Vue projects from GitHub for free, with GitHub Actions for continuous deployment included."
 tags: "react, vue, github"
@@ -8,7 +8,7 @@ cover_image:
 series:
 ---
 
-## Host your React/Vue Projects with Continuous Deployment, for Free!
+## Host React/Vue with Continuous Deployment, for Free!
 
 ### Introduction
 
