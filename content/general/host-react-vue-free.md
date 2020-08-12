@@ -38,9 +38,7 @@ Each of these is hosted separately, for free:
 
 We’ll be taking advantage of GitHub Pages in order to host our sites.
 
-Pages is a feature of GitHub that can serve static web files for a repository, typically for docs or a wiki. 
-
-**We’ll** be using it to automatically serve a compiled React/Vue project. 
+Pages is a feature of GitHub that can serve static web files for a repository, typically for docs or a wiki. *We’ll* be using it to serve a compiled React/Vue project. 
 
 I should note here that this won’t host a dynamic web app that would otherwise rely on a Node server. You’ll need a proper web server for that.
 
