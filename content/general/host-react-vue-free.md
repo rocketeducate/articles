@@ -4,7 +4,7 @@ published: false
 description: "Build and host your React and Vue projects from GitHub for free, with GitHub Actions for continuous deployment included."
 tags: "react, vue, github"
 canonical_url:
-cover_image:
+cover_image: https://dev-to-uploads.s3.amazonaws.com/i/bpsmg1uccir9azio11sd.png
 series:
 ---
 
