@@ -52,7 +52,11 @@ It can be set up in minutes, and has a few nice features out-of-the-box:
 
 - The repository contains a CNAME file, along with easy instructions for pointing your domain to the site using your provider’s DNS host records.
 
+![Namecheap DNS CNAME and A Host Records](https://dev-to-uploads.s3.amazonaws.com/i/x4x75n365cecaan2cgic.png)
+
 - The README also contains instructions for launching *unlimited* static sites, each to its own subdomain. You can now publish a blog, or separate out your portfolio’s projects into repos under the same domain, all for free. 
+
+![CNAME Subdomain for Separate GitHub Pages Repo](https://dev-to-uploads.s3.amazonaws.com/i/qrqekkjetz3x9rbfle7n.png)
 
 All instructions are in the repository’s README, but let’s get started below!
 
