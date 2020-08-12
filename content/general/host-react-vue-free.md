@@ -84,7 +84,7 @@ This is real simple:
 - The build branch will contain the compiled React/Vue application.
 - When you push to master, a GitHub Action compiles the updated project into build.
 
-![Example Build and Deploy after Push to Master](https://dev-to-uploads.s3.amazonaws.com/i/mnhape6c4cjizg5o3rm0.png)
+![Example Build and Deploy after Push to Master](https://dev-to-uploads.s3.amazonaws.com/i/87dcmcsjw2li2ae49xme.png)
 
 ### Development
 
