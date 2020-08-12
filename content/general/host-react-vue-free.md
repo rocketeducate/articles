@@ -16,6 +16,8 @@ Have you ever built web applications that you’d love to show off online, but d
 
 Do you have a blog, splash page or series of portfolio showcase projects, but don’t want to spend hours configuring and deploying it? 
 
+![Example React/Vue Project for Portfolio](https://dev-to-uploads.s3.amazonaws.com/i/au93h70az8wqr2c3t1u7.png)
+
 **Here’s the solution!**
 
 I’ve created a collection of template repositories on GitHub that makes hosting and continuously deploying React and Vue projects *free* and *incredibly simple*. 
