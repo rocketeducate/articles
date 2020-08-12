@@ -48,6 +48,8 @@ It can be set up in minutes, and has a few nice features out-of-the-box:
 
 - The repository contains a GitHub Actions workflow to automatically build and deploy any pushed changes. No messing around with external pipelines (i.e. Travis CI), and a private repo can still get ~2000 deployments per month. 
 
+![GitHub Actions for Deployment to GitHub Pages](https://dev-to-uploads.s3.amazonaws.com/i/grgc0b8a1aynlhwrlxcy.png)
+
 - The repository contains a CNAME file, along with easy instructions for pointing your domain to the site using your provider’s DNS host records.
 
 - The README also contains instructions for launching *unlimited* static sites, each to its own subdomain. You can now publish a blog, or separate out your portfolio’s projects into repos under the same domain, all for free. 
