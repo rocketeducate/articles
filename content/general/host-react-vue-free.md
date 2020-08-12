@@ -95,6 +95,9 @@ These changes will be reflected on your GitHub Pages site after around 60 second
 First, set your domain name within the GitHub repository.
 
 - In the CNAME file, replace example.com with your domain.
+- This can also be done in `Settings -> Options -> GitHub Pages -> Source`.
+
+![CNAME Subdomain for Separate GitHub Pages Repo](https://dev-to-uploads.s3.amazonaws.com/i/qrqekkjetz3x9rbfle7n.png)
 
 Second, configure your DNS host records with your domain provider.
 
