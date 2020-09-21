@@ -10,19 +10,19 @@ series:
 
 ### Introduction
 
-Have you ever built web applications that you’d love to show off online, but didn’t want to pay money to host them? 
+Have you ever built web applications that you’d love to show off online, but don’t want to spend hours configuring and deploying it? 
 
-Do you have a blog, splash page or series of portfolio showcase projects, but don’t want to spend hours configuring and deploying it? 
+Do you have a blog, splash page or series of portfolio showcase projects, but don’t want to pay money to host them for display?
 
-Well, now you can put up projects like this one below, for free!
+This guide will show you fully-featured web projects, for free!
 
 ![Example React/Vue Project for Portfolio](https://dev-to-uploads.s3.amazonaws.com/i/au93h70az8wqr2c3t1u7.png)
 
 **Here’s the solution.**
 
-I’ve created a collection of template repositories on GitHub that makes hosting and continuously deploying React and Vue projects *free* and *incredibly simple*. 
+I’ve created a collection of template repositories on GitHub that makes hosting and continuously deploying React and Vue projects *free*, *automatic* and *incredibly simple*. 
 
-In addition to the built-in deployment through GitHub Actions, it’s super easy to plug in a custom domain, with installation instructions including all of the required A and CNAME host records for your domain provider.
+Additionally, it’s super easy to plug in a custom domain, and I've included installation instructions including all of the required A and CNAME host records for your domain provider.
 
 You can view the repositories here:
 
